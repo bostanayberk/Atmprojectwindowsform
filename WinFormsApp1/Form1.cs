@@ -9,14 +9,30 @@ namespace WinFormsApp1
             InitializeComponent();
         }
 
+        string password = "123";
+        string customerName = "Eray";
+
+
         private void button1_Click(object sender, EventArgs e)
         {
-            string password = textBox1.Text;
-            string customerName = textBox2.Text;
+            string inPassword = textBox1.Text;
+            string inCustomerName = textBox2.Text;
+
+            if (inCustomerName == customerName && inPassword == password)
+            {
+
+            }
+
+
             // first comment 
         }
 
         private void textBox1_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label1_Click(object sender, EventArgs e)
         {
 
         }
